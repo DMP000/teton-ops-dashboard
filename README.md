@@ -1,16 +1,66 @@
-# React + Vite
+# Teton Ops Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend operations dashboard built with React + Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://teton-ops-dashboard.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project simulates an internal operations dashboard for a healthcare SaaS company.
 
-## Expanding the ESLint configuration
+It helps operations teams track:
+- Customer onboarding stages
+- Deployment status
+- Blocked accounts
+- Operational risks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Key Features
+
+- KPI overview (Total, Blocked, Delayed, Active customers)
+- Filterable customer table
+- Risk classification system (High / Medium / Low)
+- Status tracking (Blocked / OK)
+- Customer detail pages
+- Bottleneck analysis view
+- Navigation between views
+
+---
+
+## 🛠 Tech Stack
+
+- React (Vite)
+- Tailwind CSS
+- React Router
+- Mock data (no backend)
+
+---
+
+## 📊 Design Goal
+
+The goal was to simulate a real internal SaaS operations tool used by teams managing live customers and deployments.
+
+Focus was on:
+- clarity
+- hierarchy of information
+- operational decision-making
+
+---
+
+## 📁 Project Structure
+
+- /src/pages → dashboard pages
+- /src/components → reusable UI components
+- /src/data → mock dataset
+
+---
+
+## ⚡ How to run locally
+
+```bash
+npm install
+npm run dev
